@@ -1,20 +1,19 @@
-# Node
+# Node.js (React)
 frontend/node_modules/
 frontend/build/
 
 # Python
-venv/
 __pycache__/
 *.pyc
 *.pyo
-*.pyd
 
-# Environment files
+# Environment variables
 .env
-.env.*
+**/.env
 
-# VSCode
+# Editor configs
 .vscode/
+.idea/
 
 # Logs
 *.log
