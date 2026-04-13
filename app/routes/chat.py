@@ -3,6 +3,8 @@ from app.models.schemas import ChatRequest
 from app.agents.news_agent import agente_noticias
 from app.agents.orchestrator import decidir_acao
 from app.services.memory import salvar_mensagem
+from app.agents.orchestrator import ask_ai
+
 
 router = APIRouter()
 
